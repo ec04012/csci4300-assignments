@@ -46,15 +46,14 @@ main {
     /*clear: left;*/
     padding-left: 10px;
     padding-right: 10px;    
-    margin: 0% 0% 41px 0%;
-    width: 569px;
+    margin: 0% 0% 4% 0%;
+    width: 48%;
     float: left;    
 }
 /* Main section children spacing */
 main>* {
     padding: 0em 0em 0em 0em;
     margin-top: 2.7%;
-    margin-bottom: 2.7%;
     margin-bottom: 2.7%;
 }
 
@@ -81,13 +80,13 @@ ul>li {
 }
 /* Left bar */
 #sidebarLeft {
-    width: 265px;
+    width: 23%;
     float: left;
     padding-left: 10px;
 }
 /* Right bar */
 #sidebarRight {
-    width: 265px;
+    width: 23%;
     float: right;
     padding-right: 10px;
 }
