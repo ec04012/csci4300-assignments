@@ -1,0 +1,41 @@
+h2 {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+main {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+table {
+    margin-top: 0px;
+    padding-top: 7px;
+}
+
+table thead {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+main table {    
+    width: 100%;
+}
+main table thead {
+    color: maroon;
+    text-align: left;
+}
+
+.left {
+    text-align: left;
+}
+
+main table thead th:last-child {
+    text-align: right;    
+}
+tr td:last-child {
+    text-align: right;
+}
