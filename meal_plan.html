@@ -76,31 +76,29 @@
             required entries.)</p>
 
         <form id="order" action="order.php" method="post">
-            <fieldset>
+            <fieldset id="first_fieldset">
                 <legend>Tell us about yourself</legend>        
-                <p>* Fullname: <input type="text" name="fullname" required pattern=".+"></p>                
+                <label for="fullname">* Fullname: </label><input type="text" name="fullname" id="fullname" required pattern=".+"><br>
                 <!--https://regexlib.com/Search.aspx?k=email&AspxAutoDetectCookieSupport=1-->
-                <p>* E-Mail: <input type="text" name="email" required pattern="[\w-]+@([\w-]+\.)+[\w-]+"></p>
-                <p>Gender:
-                    <select name="gender">
+                <label for="email">* E-Mail: </label><input type="text" id="email" name="email" required pattern="[\w-]+@([\w-]+\.)+[\w-]+"><br>
+                <label for="gender">Gender: </label>
+                    <select name="gender" id="gender">
                         <option value="select_gender">Select a gender</option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                         <option value="other">Other</option>
-                    </select>
-                </p>
-                <p>Height: <input type="text" name="height" placeholder="Example, 5ft, 6in"></p>
-                <p>Weight: <input type="text" name="weight" placeholder="Example: 135lbs"></p>
-                <p>Age:
-                    <select name="age">
+                    </select><br>
+                <label for="height">Height: </label><input type="text" name="height" id="height" placeholder="Example, 5ft, 6in"><br>
+                <label for="weight">Weight: </label><input type="text" name="weight" id="weight" placeholder="Example: 135lbs"><br>
+                <label for="age">Age: </label>
+                    <select name="age" id="age">
                         <option value="select_age">Select your age</option>
                         <option value="under18">under 18</option>
                         <option value="18_34">18-34</option>
                         <option value="35-44">35-44</option>
                         <option value="50-69">50-69</option>
                         <option value="70+">70+</option>
-                    </select>
-                </p>
+                    </select>                
             </fieldset><br>
             <fieldset>
                 <legend>Lifestyle and goals</legend>

@@ -11,3 +11,18 @@ input:invalid {
     border: 3px solid maroon;
 }
 
+#first_fieldset label {
+    float: left;
+    width: 6em;
+    text-align: right;
+    margin-top: 12px;
+    margin-right: 5px;
+}
+
+#first_fieldset input {
+    margin-top: 10px;
+}
+
+#first_fieldset select {
+    margin-top: 10px;
+}
