@@ -1,9 +1,3 @@
-textarea {
-    height: 5em;
-    width: 30em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 input:valid {    
     border: 1px solid black;
 }
@@ -21,8 +15,24 @@ input:invalid {
 
 #first_fieldset input {
     margin-top: 10px;
+    margin-left: 0;
 }
 
 #first_fieldset select {
     margin-top: 10px;
+}
+
+fieldset input {
+    margin-left: 3em;
+}
+
+fieldset textarea {
+    margin-left: 3em;
+    height: 5em;
+    width: 32em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset input[type="checkbox"] {
+    margin-bottom: 13px;
 }

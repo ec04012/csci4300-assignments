@@ -103,28 +103,29 @@
             <fieldset>
                 <legend>Lifestyle and goals</legend>
                 <p>Which currently matches your present lifestyle?</p>
-                <input type="radio" name="lifestyle" value="active"><label for="active"> Active</label>
-                <input type="radio" name="lifestyle" value="moderate"><label for="moderate"> Moderate</label>
-                <input type="radio" name="lifestyle" value="sedentary"><label for="sedentary"> Sedentary</label>
+                <input type="radio" name="lifestyle" value="active" id="active"><label for="active"> Active</label>
+                <input type="radio" name="lifestyle" value="moderate" id="moderate"><label for="moderate"> Moderate</label>
+                <input type="radio" name="lifestyle" value="sedentary" id="sedentary"><label for="sedentary"> Sedentary</label>
                 <p>Are you planning to increase your activity level as you change your diet?</p>
-                <input type="radio" name="change_acitivity_level" value="yes"><label for="yes"> Yes</label>
-                <input type="radio" name="change_acitivity_level" value="no"><label for="no"> No</label>
+                <input type="radio" name="change_acitivity_level" value="yes" id="yes"><label for="yes"> Yes</label>
+                <input type="radio" name="change_acitivity_level" value="no" id="no"><label for="no"> No</label>
                 <p>What are your weight goals?</p>
-                <input type="radio" name="change_acitivity_level" value="gain_weight"><label for="gain_weight"> Gain
+                <input type="radio" name="weight_goals" value="gain_weight" id="gain_weight"><label for="gain_weight"> Gain
                     weight</label>
-                <input type="radio" name="change_acitivity_level" value="lose_weight"><label for="lose_weight"> Lose
+                <input type="radio" name="weight_goals" value="lose_weight" id="lose_weight"><label for="lose_weight"> Lose
                     weight</label>
-                <input type="radio" name="change_acitivity_level" value="lose_weight"><label for="maintain_weight">
+                <input type="radio" name="weight_goals" value="maintain_weight" id="maintain_weight"><label for="maintain_weight">
                     Maintain current weight</label>
             </fieldset><br>
             <fieldset>
                 <legend>Food preferences and restrictions</legend>
                 <p>Do you have any dietary restrictions? (select all that apply)</p>
-                <input type="checkbox" name="restriction" value="vegetarian"><label> Vegetarian</label>
-                <input type="checkbox" name="restriction" value="gluten-free"><label> Gluten-free</label>
-                <input type="checkbox" name="restriction" value="kosher"><label> Kosher </label>
-                <input type="checkbox" name="restriction" value="low_salt"><label> Low salt</label>
-                <p>Other, please explain:</p>
+                <input type="checkbox" name="restriction" value="vegetarian" id="vegetarian"><label for="vegetarian"> Vegetarian</label>
+                <input type="checkbox" name="restriction" value="gluten_free" id="gluten_free"><label for="gluten_free"> Gluten-free</label>
+                <input type="checkbox" name="restriction" value="kosher" id="kosher"><label for="kosher"> Kosher </label>
+                <input type="checkbox" name="restriction" value="low_salt" id="low_salt"><label for="low_salt"> Low salt</label>
+                <br>
+                <input type="checkbox" name="restriction" value="other" id="other"><label for="other"> Other, please explain:</label>
                 <textarea name="other_diet_restrictions"></textarea>
             </fieldset><br>
             <fieldset>
