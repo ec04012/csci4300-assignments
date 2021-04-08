@@ -1,0 +1,7 @@
+SELECT Name FROM `country`
+INNER JOIN `countrylanguage` ON country.Code = countrylanguage.countryCode
+WHERE isOfficial="T"
+GROUP BY Name
+HAVING COUNT(LANGUAGE) > 2
+ORDER BY Population ASC
+LIMIT 2

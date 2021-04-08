@@ -1,0 +1,3 @@
+SELECT Language, Percentage FROM `country`
+INNER JOIN `countrylanguage` ON country.Code = countrylanguage.countryCode
+WHERE Name="Trinidad and Tobago"

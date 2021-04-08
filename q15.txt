@@ -1,0 +1,5 @@
+SELECT SurfaceArea FROM country WHERE Code=(
+SELECT CountryCode FROM `city`
+GROUP BY CountryCode
+ORDER BY COUNT(*) ASC
+LIMIT 1)

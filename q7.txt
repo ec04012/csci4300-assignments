@@ -1,0 +1,3 @@
+SELECT Name FROM `city` WHERE CountryCode='USA' AND District='Georgia'  
+ORDER BY `city`.`Population`  ASC
+LIMIT 1
