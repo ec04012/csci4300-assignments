@@ -1,6 +1,0 @@
-SELECT Name, COUNT(Language) FROM `country`
-INNER JOIN `countrylanguage` ON country.Code = countrylanguage.countryCode
-WHERE isOfficial="T"
-GROUP BY Name
-ORDER BY COUNT(Language) DESC
-LIMIT 5

@@ -1,1 +1,0 @@
-SELECT Name, District FROM city WHERE CountryCode='USA'

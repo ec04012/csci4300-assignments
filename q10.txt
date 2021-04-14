@@ -1,1 +1,0 @@
-SELECT District, AVG(Population) FROM `city` WHERE CountryCode='USA' GROUP BY District

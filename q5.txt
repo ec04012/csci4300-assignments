@@ -1,1 +1,0 @@
-SELECT DISTRICT, COUNT(*) FROM `city` WHERE CountryCode='USA' GROUP BY District

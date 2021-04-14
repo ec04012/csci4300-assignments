@@ -1,5 +1,0 @@
-SELECT Population FROM country WHERE Code=(
-SELECT CountryCode FROM `city`
-GROUP BY CountryCode
-ORDER BY COUNT(*) DESC
-LIMIT 1)
