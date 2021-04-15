@@ -44,11 +44,14 @@ $statement3->closeCursor();
 </head>
 
 <body>
-	<h1 class="title">Product Manager</h1>
-		<h1 class="gold">Product List</h1>
+	<header>
+		<h1 class="title">Product Manager</h1>
+	</header>
+	<main>	
+		<h1>Product List</h1>
 		<div class="row">
-			<div class="c1">
-				<a style="text-decoration:none;" href="category_list.php"><h2 class="gold" id="category">Categories</h2></a>
+			<div class="column1">
+				<a style="text-decoration:none;" href="category_list.php"><h2 id="category">Categories</h2></a>
 				<nav>
 				<ul class="list">
 					<?php foreach ($categories as $category) : ?>
@@ -60,9 +63,9 @@ $statement3->closeCursor();
 				</ul>
 				</nav>          
 			</div>
-			<div class="c2">
+			<div class="column2">
 				<table class="items">
-				<caption><h2 class="gold"><?php echo $category_name; ?></h2></caption>
+				<caption><h2><?php echo $category_name; ?></h2></caption>
 					<tr>
 						<th>Code</th>
 						<th>Name</th>
@@ -84,9 +87,10 @@ $statement3->closeCursor();
 					</tr>
 					<?php endforeach; ?>
 				</table>
-				<p id="product" class="bold"><a id="product" href="add_product_form.php">Add Product</a></p>
+				<b><p id="product"><a id="product" href="add_product_form.php">Add Product</a></p></b>
 			</div>
 		</div>
+	</main>
 	<footer>
 		<p>&copy; <?php echo date("Y"); ?> My Guitar Shop, Inc.</p>
 	</footer>    

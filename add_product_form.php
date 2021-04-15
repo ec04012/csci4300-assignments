@@ -41,7 +41,7 @@ $statement->closeCursor();
 			<label>&nbsp;</label>
 			<input type="submit" value="Add Product"><br>
 		</form>
-		<p><a href="index.php" class="bold">View Product List</a></p>
+		<p><a href="index.php" id="view_product_list">View Product List</a></p>
 	</main>
 	<footer>
 		<p>&copy; <?php echo date("Y"); ?> My Guitar Shop, Inc.</p>
