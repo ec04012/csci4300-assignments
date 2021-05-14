@@ -1,0 +1,85 @@
+/* Use sans serif font*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*border: 1px solid black;*/    
+}
+
+/* General stuff, eg background */
+body {    
+    justify-content: center;    
+    margin-left: 27%;
+    margin-right: 27%;    
+    border: 2px solid steelblue;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 20px 10px black;
+}
+
+/* Header color, border, height */
+header {
+    background-image: linear-gradient(to top, steelblue -175%, white 100%);
+    border-bottom: 2px solid steelblue;
+    height: 7em;
+}
+/* Header text size */
+header h1 {
+    font-size: 250%;    
+    color: steelblue;
+    font-style: italic;
+    text-shadow: 2px 2px 2px steelblue;
+    margin-bottom: 0%;    
+}
+header h3 {
+    margin-top: 1%;    
+    font-size: 140%;  
+}
+/* Header image*/
+header img {
+    float: left;
+    margin-left: 2em;   
+    margin-right: 2.5em;
+    margin-top: -1%;
+}
+
+/* Main section left and right padding*/
+main {
+    clear: left;
+    padding-left: 20px;
+    padding-right: 20px;    
+    margin: 0% 0% 0% 0%;
+}
+/* Main section top right spacing*/
+main>* {
+    padding: 0em 0em 0em 0em;
+    margin-top: 1.7%;
+    margin-bottom: 1.7%;
+}
+main ul{
+    margin-top: -3px;
+    padding-top: 0em;
+}
+
+/* Link colors*/
+.maroon {
+    color: maroon;    
+}
+.maroon:hover {
+    color: steelblue;
+}
+.add_resources {
+    color: steelblue;
+}
+
+footer {
+    text-align: center;    
+    color: white;
+    background-color: steelblue;
+    margin: 0em 0em 0em 0em;
+    height: 40px;
+    line-height: 2.5em;
+}
+
+footer>p {    
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;        
+}
